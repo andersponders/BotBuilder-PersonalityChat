@@ -5,4 +5,4 @@ var personalityChatOptions = function(subscriptionKey, persona, scenarioResponse
     return this;
 }
 
-export default personalityChatOptions;
+module.exports = personalityChatOptions;
