@@ -22,6 +22,8 @@ If interested in participating in a private preview or access to higher throttli
 | [Personality Chat in Microsoft Bot Framework SDK v4](CSharp/PersonalityChat/README.md) |[Nuget package](https://www.nuget.org/packages/Microsoft.Bot.Builder.PersonalityChat/4.0.0-alpha-m1.0) |[EndToEnd Sample](CSharp/EndToEndSamples/) |
 | [Calling Personality Chat API directly using core wrapper](CSharp/Core/README.md) |[Nuget package](https://www.nuget.org/packages/Microsoft.Bot.Builder.PersonalityChat.Core/1.0.0-alpha-m1.0) | |
 
+#### Nodejs/npm
+check out the "nodejs/samples" folder for an example
 
 #### Personality Chat Datasets
 [Directions for Using Personality Chat Datasets](https://github.com/Microsoft/BotBuilder-PersonalityChat/blob/master/CSharp/Datasets)- Personality chat dataset containing responses and few representative queries for facilitating building your own models using LUIS or QNAMaker.

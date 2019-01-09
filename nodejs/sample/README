@@ -1,1 +1,5 @@
 this is the same as botbuilder-samples' 02.echobot-with-counter except with the personalitychat middleware attached
+
+run "npm start" and then open up your emulator. 
+Type in some stuff that personalityChat will recognzie and some stuff it wont. 
+Notice that the echobot counter is only getting incremented when the middleware doesn't "break" out of the middleware chain. The way this sample is set up is that it will "intercept" a user message, respond if there is any match from PersonalityChat above the set threshold (0.5 here), and exit the activity handler lifecycle if it got any matching scenario.
