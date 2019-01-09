@@ -1,10 +1,10 @@
 {
-  "name": "botbuilder-personalitychat-nodejs",
+  "name": "botbuilder-personalitychat",
   "version": "0.0.1",
   "description": "node version of personalitychat lib",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"im not writing tests for this\" && exit 1"
   },
   "keywords": [
     "personality",
