@@ -1,0 +1,18 @@
+{
+  "name": "botbuilder-personalitychat-nodejs",
+  "version": "0.0.1",
+  "description": "node version of personalitychat lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "personality",
+    "chat"
+  ],
+  "author": "andersponders",
+  "license": "Beerware",
+  "dependencies": {
+    "request-promise-native": "^1.0.5"
+  }
+}
