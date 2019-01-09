@@ -12,6 +12,10 @@
   ],
   "author": "andersponders",
   "license": "Beerware",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersponders/BotBuilder-PersonalityChat-nodejs.git"
+  },
   "dependencies": {
     "request-promise-native": "^1.0.5"
   }
