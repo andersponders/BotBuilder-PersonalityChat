@@ -5,7 +5,7 @@ function personalityChatMiddleware(personalityChatOptions, personalityChatMiddle
     this.personalityChatMiddlewareOptions = personalityChatMiddlewareOptions;
     this.svc = new personalityChatService(personalityChatOptions);
 
-    this.OnTurn = async function(turnContext, next) {
+    this.onTurn = async function(turnContext, next) {
         if (turnContext.activity.type === 'message') {
             let query = turnContext.activity.text;
             if (query) {
@@ -17,7 +17,7 @@ function personalityChatMiddleware(personalityChatOptions, personalityChatMiddle
             }
         }
 
-        if (this.personalityChatMiddlewareOptions.endActivityRoutingOnResponse) {
+        if (turnContext.responded && this.personalityChatMiddlewareOptions.endActivityRoutingOnResponse) {
             return;
         }
 
@@ -28,7 +28,7 @@ function personalityChatMiddleware(personalityChatOptions, personalityChatMiddle
         var matchedScenarios = results.ScenarioList;
         if (matchedScenarios && matchedScenarios.length > 0) {
             var top = matchedScenarios[0];
-            if (top.Score > this.personalityChatMiddlewareOptions.ScoreThreshold && 
+            if (top.Score > this.personalityChatMiddlewareOptions.scoreThreshold && 
                 top.Responses &&
                 top.Responses.length > 0) {
                 

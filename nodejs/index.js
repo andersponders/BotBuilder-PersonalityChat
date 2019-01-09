@@ -1,15 +1,15 @@
 const personalityChatOptions = require('./core/personalityChatOptions.js');
-const personalityChatPersona = requrie('./core/personalityChatPersona.js');
+const personalityChatPersona = require('./core/personalityChatPersona.js');
 const personalityChatService = require('./core/personalityChatService.js');
 
 const personalityChatMiddleware = require('./middleware/personalityChatMiddleware.js');
 const personalityChatMiddlewareOptions = require('./middleware/personalityChatMiddlewareOptions.js');
 
 module.exports = {
-    personalityChatOptions: personalityChatOptions,
-    personalityChatPersona: personalityChatPersona,
-    personalityChatService: personalityChatService,
+    Options: personalityChatOptions,
+    Persona: personalityChatPersona,
+    Service: personalityChatService,
 
-    personalityChatMiddleware: personalityChatMiddleware,
-    personalityChatMiddlewareOptions: personalityChatMiddlewareOptions
+    Middleware: personalityChatMiddleware,
+    MiddlewareOptions: personalityChatMiddlewareOptions
 }

@@ -17,9 +17,12 @@ var personalityChatService = function(options) {
             headers: {
                 "Ocp-Apim-Subscription-Key": this.personalityChatOptions.subscriptionKey
             },
-            timeout: 5000
+            timeout: 8000
         }).then(function(response) {
             return response;
+        }).catch(function(err) {
+            console.error(err);
+            return null;
         });
     }
     return this;
