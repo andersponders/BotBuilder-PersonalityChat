@@ -1,6 +1,6 @@
 {
   "name": "botbuilder-personalitychat-nodejs",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "node version of personalitychat lib",
   "main": "index.js",
   "scripts": {
