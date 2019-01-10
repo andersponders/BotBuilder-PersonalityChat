@@ -1,3 +1,8 @@
+// 
+// Copyright (c) Optum. All rights reserved.
+// Licensed under the MIT license.
+//
+
 const personalityChatOptions = require('./core/personalityChatOptions.js');
 const personalityChatPersona = require('./core/personalityChatPersona.js');
 const personalityChatService = require('./core/personalityChatService.js');

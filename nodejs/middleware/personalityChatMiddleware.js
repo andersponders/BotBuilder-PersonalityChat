@@ -1,3 +1,8 @@
+// 
+// Copyright (c) Optum. All rights reserved.
+// Licensed under the MIT license.
+// 
+
 const personalityChatService = require('../core/personalityChatService.js');
 
 function personalityChatMiddleware(personalityChatOptions, personalityChatMiddlewareOptions) {

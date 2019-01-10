@@ -1,3 +1,8 @@
+// 
+// Copyright (c) Optum. All rights reserved.
+// Licensed under the MIT license.
+//
+
 const rp = require('request-promise-native');
 
 var personalityChatService = function(options) {
